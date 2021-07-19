@@ -14,6 +14,7 @@
 	<meta http-equiv="Content-Language" content="id-ID">
 	<meta NAME="Distribution" CONTENT="Global">
 	<meta NAME="Rating" CONTENT="General">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="canonical" href="<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>"/>
 	<?php if ($this->uri->segment(1)=='berita' AND $this->uri->segment(2)=='detail'){ $rows = $this->model_utama->view_where('berita',array('judul_seo' => $this->uri->segment(3)))->row_array();
 	   echo '<meta property="og:title" content="'.$title.'" />
@@ -96,12 +97,12 @@
 	</style>
 </head>
 
-<body>
+<body style=''>
 <div id='Back-to-top'>
   <img alt='Back to top' src='<?php echo base_url(); ?>asset/images/top.png'/>
 </div>
 		<div class="boxed">	
-			<div class="header" style="box-shadow: 0 0 10px rgba(0,0,0,.3);">
+			<div class="header" style="background: radial-gradient(circle at top left, #325236, #3c6c3c); box-shadow: 0 0 10px rgba(0,0,0,.3); ">
 				<?php include "header.php"; ?>
 			</div>
 			
@@ -147,7 +148,7 @@
 			</div>
 
 			<footer>
-				<div class="footer">
+				<div class="footer" style="">
 					<?php 
 						include "footer.php";
 						$this->model_utama->kunjungan(); 

@@ -2,7 +2,7 @@
 <center>Yuk Temukan Agen Terdekat dari tempat tinggal anda agar belanja lebih mudah. <a class='btn btn-danger btn-block' href='<?php echo base_url(); ?>produk/reseller'><span class='glyphicon glyphicon-search'></span> Klik / Cari Disini</a></center>
 </div> -->
 
-<div class='ideaboxWeather' style='border-radius:10px; overflow: hidden; box-shadow: 0 0 20px rgba(0,0,0,.2);' id='example1'>
+<div class='ideaboxWeather' style='background: radial-gradient(circle at top left, #325236, #3c6c3c); border-radius:10px; overflow: hidden; box-shadow: 0 0 20px rgba(0,0,0,.2);' id='example1'>
   <h1>Loading....</h1>
 </div>
 <hr>

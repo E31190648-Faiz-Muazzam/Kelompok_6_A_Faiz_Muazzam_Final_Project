@@ -19,16 +19,19 @@
                  </div>
                  <div class="col-md-2">
                      <h4 class="text-warning">Member Of Team</h4>
-                     <p class="text-white"><a href="https://www.instagram.com/faizmuazzam_/" target="_blank" class="text-white"> <img src="icon/8.png" width="20px" class=""> @faizmuazzam_</a></p>
-                     <p class="text-white"><a href="https://www.instagram.com/naufalsa__/" target="_blank" class="text-white"> <img src="icon/8.png" width="20px" class=""> @naufalsa__</a></p>
-                     <p class="text-white"><a href="https://www.instagram.com/prisca_anggita/" target="_blank" class="text-white"> <img src="icon/8.png" width="20px" class=""> @prisca_anggita</a></p>
-                     <p class="text-white"><a href="" target="_blank" class="text-white"> <img src="icon/8.png" width="20px" class=""> @ansysftr</a></p>
+                     <p class="text-white"><a href="https://www.instagram.com/faizmuazzam_/" target="_blank" class="text-white"> <img src="<?= base_url(); ?>/asset/icon/instagram.png" width="15px" class=""> @faizmuazzam_</a></p>
+                     <p class="text-white"><a href="https://www.instagram.com/naufalsa__/" target="_blank" class="text-white"> <img src="<?= base_url(); ?>/asset/icon/instagram.png" width="15px" class=""> @naufalsa__</a></p>
+                     <p class="text-white"><a href="https://www.instagram.com/prisca_anggita/" target="_blank" class="text-white"> <img src="<?= base_url(); ?>/asset/icon/instagram.png" width="15px" class=""> @prisca_anggita</a></p>
+                     <p class="text-white"><a href="" target="_blank" class="text-white"> <img src="<?= base_url(); ?>/asset/icon/instagram.png" width="15px" class=""> @ansysftr</a></p>
                  </div>
                  <div class="col-md-4">
+
                      <h4 class="text-warning">Contact Us</h4>
-                     <p class="text-white"><a href="https://www.google.com/maps/place/Politeknik+Negeri+Jember/@-8.1592956,113.7206543,16.17z/data=!4m5!3m4!1s0x2dd695b617d8f623:0xf6c4437632474338!8m2!3d-8.1594771!4d113.7224597" target="_blank" class="text-white"> <img src="icon/9.png" width="50px" class=""> Sumbersari, Jalan Mastrip gang IV F-22, Jember</a></p>
-                     <p class="text-white mt-4"><a href="" class="text-white"> <img src="icon/10.png" width="50px" class=""> 081359645758</a></p>
-                     <p class="text-white mt-4"><a href="" class="text-white"> <img src="icon/11.png" width="50px" class=""> kemanisan.team7@gmail.com</a></p>
+                     <div class="left">
+                        <script language="javascript">
+                        document.write("<a href='" + document.URL + " ' target='_blank' class='custom-soc icon-text'>&#62220;</a> <a href='" + document.URL + "' target='_blank' class='custom-soc icon-text'>&#62217;</a> <a href='" + document.URL + "' target='_blank' class='custom-soc icon-text'>&#62223;</a>");
+                        </script>
+                    </div>
                  </div>
              </div>
              <hr>

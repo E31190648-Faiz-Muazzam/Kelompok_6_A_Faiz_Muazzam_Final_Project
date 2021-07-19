@@ -106,7 +106,7 @@ hr {
 }
 
 .ideaboxWeather{
-	background-color: #2a9230 !important;
+	background: background: radial-gradient(circle at top left, #325236, #3c6c3c) !important;
 }
 
 a:hover {
