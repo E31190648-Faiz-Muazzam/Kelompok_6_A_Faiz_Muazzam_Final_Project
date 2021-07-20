@@ -35,22 +35,22 @@
         }else{
           $harga =  "Rp ".rupiah($row['harga_konsumen']);
         }
-        echo "<div class='col-md-2 col-xs-6 '>
+        echo "<div class='col-md-2 col-xs-6 ' style='padding: 20px; overflow: hidden; margin-right: 20px; box-shadow: 0 0 10px rgba(0,0,0,.3); border-radius: 20px;'>
                   <center>
-                    <div style='height:140px; overflow:hidden'>
+                    <div style='height:140px; margin-bottom: 10px; overflow:hidden'>
                       <a title='$row[nama_produk]' href='".base_url()."produk/detail/$row[produk_seo]'><img style='min-height:140px; width:99%' src='".base_url()."asset/foto_produk/$foto_produk'></a>
                       $diskon_persen
                     </div>
                     <h4 class='produk-title produk-title-list'><a title='$row[nama_produk]' href='".base_url()."produk/detail/$row[produk_seo]'>$judul</a></h4>
-                    <span style='color:red;'>$harga</span><br>
+                    <span style='color:red; margin-bottom: 10px;'>$harga</span><br>
                     <i>$stok</i><br>";
                     if ($beli['beli']-$jual['jual']<=0){
                       echo "<a class='btn btn-default btn-block btn-sm' href='#'>Beli Sekarang</a>";
                     }else{
                       if($this->session->level=='konsumen'){
-                        echo "<a class='btn btn-default btn-block btn-sm' href='".base_url()."produk/detail/$row[produk_seo]'>Beli Sekarang</a>";
+                        echo "<a class='btn btn-default btn-block btn-sm' style='margin-top: 10px;' href='".base_url()."produk/detail/$row[produk_seo]'>Beli Sekarang</a>";
                       }else{
-                        echo "<a class='btn btn-default btn-block btn-sm' href='".base_url()."produk/detail/$row[produk_seo]'>Beli Sekarang</a>";
+                        echo "<a class='btn btn-default btn-block btn-sm'  style='margin-top: 10px;' href='".base_url()."produk/detail/$row[produk_seo]'>Beli Sekarang</a>";
                       }
                     }
                     echo "</center>

@@ -91,7 +91,7 @@ echo "<div class='col-md-12'>
 
             <div class='alert alert-warning' style='border-radius:0px'>
               <span style='color:orange' class='glyphicon glyphicon-ok'></span>
-              <b>Jaminan 100% Aman</b><br>
+              <b>Insyallah Aman</b><br>
               Uang pasti kembali. Sistem pembayaran bebas penipuan.<br>
               Barang tidak sesuai pesanan? Ikuti langkah retur barang di sini.
             </div>

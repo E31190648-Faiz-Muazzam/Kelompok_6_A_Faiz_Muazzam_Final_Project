@@ -58,7 +58,7 @@
                     echo "</select></td></tr>
                     <tr><th width='130px' scope='row'>Nama Produk</th>  <td><input type='text' class='form-control' name='b' value='$rows[nama_produk]' required></td></tr>
                     <tr><th scope='row'>Satuan</th>                     <td><input type='text' class='form-control' name='c' value='$rows[satuan]'></td></tr>
-                    <tr><th scope='row'>Berat / Gram</th>                      <td><input type='number' class='form-control' name='berat' value='$rows[berat]'></td></tr>
+                    <tr><th scope='row'>Berat (Gram)</th>                      <td><input type='number' class='form-control' name='berat' value='$rows[berat]'></td></tr>
                     <tr><th scope='row'>Harga Modal</th>                 <td><input type='number' class='form-control' name='d' value='$rows[harga_beli]'></td></tr>
                     <input type='hidden' class='form-control' name='e' value='$rows[harga_reseller]'>
                     <tr><th scope='row'>Harga Jual</th>             <td><input type='number' class='form-control' name='f' value='$rows[harga_konsumen]'></td></tr>

@@ -22,5 +22,5 @@ echo "<div class='widget'>
 <a class='btn btn-xs btn-block btn-default' href=''>Pesanan Diterima <span class='badge'>".$sukses->num_rows()."</span></a>
 <a class='btn btn-xs btn-block btn-default' href=''>Bergabung <span class='badge'>".tgl_indo($ex[0])."</span></a>
 
-<br><img style='width:100%' src='".base_url()."asset/foto_pasangiklan/ekpedisi2.jpg'>";
+<br><!-- <img style='width:100%' src='".base_url()."asset/foto_pasangiklan/ekpedisi2.jpg'> -->";
 ?>

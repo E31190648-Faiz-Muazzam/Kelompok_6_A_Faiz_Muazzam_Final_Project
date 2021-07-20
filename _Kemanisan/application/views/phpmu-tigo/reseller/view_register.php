@@ -1,7 +1,7 @@
 <div class='panel-body'>
     <ul class='myTabs nav nav-tabs' role='tablist'>
       <li role='presentation' class='active'><a href='#konsumen' id='konsumen-tab' role='tab' data-toggle='tab' aria-controls='konsumen' aria-expanded='true'>Pendaftaran Pembeli </a></li>
-      <li role='presentation' class=''><a href='#reseller' role='tab' id='reseller-tab' data-toggle='tab' aria-controls='reseller' aria-expanded='false'>Pendaftaran Penjual</a></li>
+      <li role='presentation' class=''><a href='#reseller' role='tab' id='reseller-tab' data-toggle='tab' aria-controls='reseller' aria-expanded='false'>Pendaftaran Agen</a></li>
     </ul><br>
     <div id='myTabContent' class='tab-content'>
         <div role='tabpanel' class='tab-pane fade active in' id='konsumen' aria-labelledby='konsumen-tab'>

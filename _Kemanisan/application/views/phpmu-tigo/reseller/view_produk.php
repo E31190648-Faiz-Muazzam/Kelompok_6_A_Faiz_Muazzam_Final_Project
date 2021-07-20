@@ -20,9 +20,9 @@
     }else{
       $harga =  "Rp ".rupiah($row['harga_konsumen']);
     }
-    echo "<div class='produk col-md-2 col-xs-6'>
+    echo "<div class='produk col-md-2 col-xs-6' style='padding: 20px; overflow: hidden; margin-right: 20px; box-shadow: 0 0 10px rgba(0,0,0,.3); border-radius: 20px;'>
               <center>
-                <div style='height:140px; overflow:hidden'>
+                <div style='height:140px; overflow:hidden; margin-bottom: 10px;'>
                   <a title='$row[nama_produk]' href='".base_url()."produk/detail/$row[produk_seo]'><img style='min-height:140px; width:99%' src='".base_url()."asset/foto_produk/$foto_produk'></a>
                 $diskon_persen
               </div>

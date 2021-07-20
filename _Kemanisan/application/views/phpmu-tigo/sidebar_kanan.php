@@ -2,10 +2,10 @@
 <center>Yuk Temukan Agen Terdekat dari tempat tinggal anda agar belanja lebih mudah. <a class='btn btn-danger btn-block' href='<?php echo base_url(); ?>produk/reseller'><span class='glyphicon glyphicon-search'></span> Klik / Cari Disini</a></center>
 </div> -->
 
-<div class='ideaboxWeather' style='background: radial-gradient(circle at top left, #325236, #3c6c3c); border-radius:10px; overflow: hidden; box-shadow: 0 0 20px rgba(0,0,0,.2);' id='example1'>
+<!-- <div class='ideaboxWeather' style='background: radial-gradient(circle at top left, #325236, #3c6c3c); border-radius:10px; overflow: hidden; box-shadow: 0 0 20px rgba(0,0,0,.2);' id='example1'>
   <h1>Loading....</h1>
 </div>
-<hr>
+<hr> -->
 
 <?php 
 // $yahoo = $this->model_utama->view('mod_ym');
@@ -130,7 +130,7 @@
   </div>
 </div>
 
-<div class="widget">
+<!-- <div class="widget">
 	<h2 class="list-title" style="color: #2277c6;border-bottom: 2px solid #2277c6;">Jejak Pendapat</h2>
 		<?php
 		  $t = $this->model_utama->view_where('poling',array('aktif' => 'Y','status' => 'Pertanyaan'))->row_array();
@@ -145,7 +145,7 @@
 		  <a href='".base_url()."polling'>
 		  <input style='width: 110px; padding:2px;' type=button class=simplebtn value='LIHAT HASIL' /></a></center>";
 		?>
-</div>
+</div> -->
 
 <div class="widget" style='border-radius:10px; overflow: hidden; box-shadow: 0 0 20px rgba(0,0,0,.2);'>
 	<h3>Komentar Terakhir</h3>

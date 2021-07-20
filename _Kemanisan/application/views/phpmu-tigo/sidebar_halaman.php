@@ -1,4 +1,4 @@
-<div class="widget" style='border-radius:10px; overflow: hidden; box-shadow: 0 0 20px rgba(0,0,0,.2);'>
+<!-- <div class="widget" style='border-radius:10px; overflow: hidden; box-shadow: 0 0 20px rgba(0,0,0,.2);'>
 <h3>Statistik Kunjungan</h3>
 <div>
 <ul class="list-group">
@@ -16,7 +16,7 @@ echo "<li style='margin-bottom:none' class='list-group-item'>User Online <span c
 ?>
 </ul>
 </div>
-</div>
+</div> -->
 
 
 <div class="widget" style='border-radius:10px; overflow: hidden; box-shadow: 0 0 20px rgba(0,0,0,.2);'>

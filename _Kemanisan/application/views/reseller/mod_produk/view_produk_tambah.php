@@ -49,8 +49,8 @@
                     <tr><th scope='row'>Satuan</th>                     
                     <td><input type='text' class='form-control' value='Kg' name='c' required></td>
                     </tr>
-                    <tr><th scope='row'>Berat / Kg</th>                      
-                    <td><input type='number' class='form-control' value='1' name='berat' required>
+                    <tr><th scope='row'>Berat (Gram)</th>                      
+                    <td><input type='number' class='form-control' value='1000' name='berat' required>
                     </td></tr>
                     <tr><th scope='row'>Harga Modal</th>                 
                     <td><input type='number' class='form-control' name='d'></td></tr>

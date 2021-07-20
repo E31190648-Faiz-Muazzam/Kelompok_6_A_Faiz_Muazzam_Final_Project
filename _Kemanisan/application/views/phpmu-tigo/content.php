@@ -1,24 +1,24 @@
 <?php 
 echo "<div class='paragraph-row'>
-	<div class='column6'>"; 
+	<div class='column6' style=' overflow: hidden; box-shadow: 0 0 10px rgba(0,0,0,.3); border-radius: 20px;'>"; 
 		include "slide.php";
 	echo "</div>
 	<div class='column4 hidden-xs'>
 		<div class='paragraph-row'>
-			<div class='column12'>
+			<div class='column12' style='overflow: hidden; box-shadow: 0 0 10px rgba(0,0,0,.3); border-radius: 20px;'>
 				<a target='_BLANK' href='$ik1[url]'><img src='".base_url()."asset/foto_iklanatas/$ik1[gambar]' style='width:100%; height: 190px;'></a>
 			</div>
 		</div>
 		<div class='paragraph-row'>
-			<div class='column6' style='margin-top:10px'>
+			<div class='column6' style='margin-top:10px; overflow: hidden; box-shadow: 0 0 10px rgba(0,0,0,.3); border-radius: 20px;'>
 				<a target='_BLANK' href='$ik2[url]'><img src='".base_url()."asset/foto_iklanatas/$ik2[gambar]' style='width:100%; height: 180px;'></a>
 			</div>
-			<div class='column6' style='margin-top:10px'>
+			<div class='column6' style='margin-top:10px; overflow: hidden; box-shadow: 0 0 10px rgba(0,0,0,.3); border-radius: 20px;'>
 				<a target='_BLANK' href='$ik3[url]'><img src='".base_url()."asset/foto_iklanatas/$ik3[gambar]' style='width:100%; height: 180px;'></a>
 			</div>
 		</div>
 	</div>
-	<div class='column2 hidden-xs'>
+	<div class='column2 hidden-xs' style='overflow: hidden; box-shadow: 0 0 10px rgba(0,0,0,.3); border-radius: 20px;'>
 		<a target='_BLANK' href='$ik4[url]'><img src='".base_url()."asset/foto_iklanatas/$ik4[gambar]' style='width:100%; min-height: 380px;'></a>
 	</div>
 </div>
@@ -27,7 +27,7 @@ echo "<div class='paragraph-row'>
 <div class='row hidden-xs'>";
 $kategori_button = $this->db->query("SELECT * FROM rb_kategori_produk ORDER BY RAND() DESC LIMIT 8");
 foreach ($kategori_button->result_array() as $rows) {
-	echo "<div class='col-md-3 col-xs-6' style='margin-bottom:5px'>
+	echo "<div class='col-md-3 col-xs-6' >
 		<a style='border-radius:0px; text-align:left' class='btn btn-block btn-default' href='".base_url()."produk/kategori/$rows[kategori_seo]'> 
 		<span class='glyphicon glyphicon-th-large'></span> $rows[nama_kategori]
 		</a>
@@ -74,7 +74,7 @@ foreach ($kategori->result_array() as $kat) {
 	    }else{
 	    	$harga =  "Rp ".rupiah($row['harga_konsumen']);
 	    }
-	    echo "<div class='produk col-md-2 col-xs-6'>
+	    echo "<div class='produk col-md-2 col-xs-6' style='padding: 20px; overflow: hidden; margin-right: 20px; box-shadow: 0 0 10px rgba(0,0,0,.3); border-radius: 20px;'>
 	              <center>
 	                
 	                <div style='height:140px; overflow:hidden'>
@@ -109,7 +109,7 @@ foreach ($kategori->result_array() as $kat) {
 			foreach ($hot->result_array() as $row) {	
 			$total_komentar = $this->model_utama->view_where('komentar',array('id_berita' => $row['id_berita']))->num_rows();
 			$tgl = tgl_indo($row['tanggal']);
-			echo "<li style='width:180px'>
+			echo "<li style='width:170px; padding: 20px; overflow: hidden; margin-right: 20px; box-shadow: 0 0 10px rgba(0,0,0,.3); border-radius: 20px;'>
 					<div class='article-photo'>
 						<a href='".base_url()."$row[judul_seo]' class='hover-effect'>";
 							if ($row['gambar'] ==''){
@@ -119,7 +119,7 @@ foreach ($kategori->result_array() as $kat) {
 							}
 					echo "</a>
 					</div>
-					<div class='article-content'>
+					<div class='article-content' >
 						<h4><a href='".base_url()."$row[judul_seo]'>$row[judul]</a><a href='".base_url()."$row[judul_seo].html' class='h-comment'>$total_komentar</a></h4>
 						<span class='meta'>
 							<a href='".base_url()."$row[judul_seo]'><span class='icon-text'>&#128340;</span>$row[jam], $tgl</a>
